@@ -1,0 +1,72 @@
+.carCard {
+    width: 100%;
+    max-width: 350px;
+    background-color: #e4e4e398;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.carCard:hover {
+    transform: scale(1.05);
+}
+
+.carImage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.carDetails {
+    flex-grow: 1;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carInfo h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.carInfo p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.carPricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricePerHour {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.rentButton {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Ensures there is space above the button */
+}
+
+.rentButton:hover {
+    background-color: #0056b3;
+}

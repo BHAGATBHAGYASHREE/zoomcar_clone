@@ -1,0 +1,85 @@
+.featuresContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .featuresContainer h2 {
+    color: #5b7fff;
+  }
+  
+  .featuresContainer h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+  }
+  
+  .featuresContainer p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+    gap: 10px; /* You can adjust the gap as needed */
+  }
+  
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .featuresColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .feature {
+    text-align: left;
+    padding: 10px; /* Adjust padding */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    font-size: 2em;
+    margin-bottom: 5px; /* Adjust margin */
+  }
+  
+  .feature h3 {
+    font-size: 1.5em;
+    margin: 5px 0; /* Adjust margin */
+  }
+  
+  .feature p {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .carContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carImage {
+    max-width: 70%;
+    height: auto;
+  }
+
+  .introText p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+    white-space: pre-line; /* This will preserve spaces and line breaks */
+  }
+  
+  

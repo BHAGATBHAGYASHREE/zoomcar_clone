@@ -1,0 +1,92 @@
+/* CarRentalAd.module.css */
+
+.carRentalAd {
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 5px;
+  /* text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  min-height: 10vh;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url('https://images-porsche.imgix.net/-/media/FDAAC729229C404F80D9EC31F95810BC_D74CE878F57D49B88B45E2F0EA203154_001-hero-13-5-intro?w=1759&q=45&dpr=2&auto=format');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff; /* White text color */
+}
+
+.carRentalAd .headerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px; /* Adjust gap between elements */
+
+}
+
+.carRentalAd .headerContentRow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Adjust alignment as needed */
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust gap between elements */
+}
+
+.carRentalAd h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.carRentalAd p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  width: 40%;
+}
+
+.carRentalAd .highlights {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px; /* Adjust margin as needed */
+  }
+  
+  .carRentalAd .highlight {
+    text-align: center;
+    margin: 10px;
+    padding: 20px; /* Padding for the background box */
+    border-radius: 8px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    backdrop-filter: blur(8px); /* Blur effect for modern browsers */
+    -webkit-backdrop-filter: blur(8px); /* Blur effect for Safari */
+  }
+
+.carRentalAd .highlight h3 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #ffffff;
+
+}
+
+.carRentalAd .highlight h1 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.carRentalAd .highlight h6 {
+    color: #999;
+  }
+
+.carRentalAd .highlight p {
+  font-size: 0.8rem;
+  color: #ffffff;
+}
+

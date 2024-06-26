@@ -1,0 +1,85 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; /* Initially transparent background */
+    color: rgb(255, 252, 252);
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, top 0.3s ease; /* Smooth transition for background color and top */
+    position: fixed; /* Fixed position initially */
+    top: 0; /* Position at the top of the viewport */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.navbarScrolled {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background color when scrolled */
+    color: rgb(9, 9, 9);
+}
+
+.navbarLeft,
+.navbarRight {
+    display: flex;
+    align-items: center;
+}
+
+.logoImg {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navbarLeft a,
+.navbarRight a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.3rem; /* Increase font size for user icon */
+}
+
+.navbarLogo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbarLogo img {
+    height: 70px; /* Adjust size as needed */
+    transition: height 0.3s ease; /* Smooth transition for logo size */
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 8px;
+    color: black;
+}
+
+.searchIcon {
+    color: black;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.userIcon {
+    margin-left: 10px;
+}
+
+.signContainer {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 8px;
+}
+.userName{
+    margin-left:60px ;
+    font-weight: bold;
+    font-size: 1.4em;
+}

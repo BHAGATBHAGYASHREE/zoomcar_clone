@@ -1,0 +1,81 @@
+.Contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 50vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), url('https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Contact-text {
+    flex: 0 0 30%; /* Adjust width as needed */
+    color: white;
+    text-align: center;
+    padding-right: 20px; /* Padding on the right for spacing */
+    padding-top: 60px;
+
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center;
+
+}
+.Contact-text2 {
+    
+    font-size: 3em;
+    
+    margin-top: 20px; /* Add space between paragraphs */
+
+}
+.Contact-text3 {
+    
+    font-size: 1.5em;
+    margin-top: 10px; /* Add space between paragraphs */
+
+    
+
+}
+
+.Contact-info {
+    text-align: center;
+    margin-top: 20px;
+
+    flex: 0 0 30%; /* Adjust width as needed */
+    color: white;
+    display: flex;
+padding-top: 60px;
+    flex-direction: column; /* Arrange items in a column */
+    padding-right: 20px; /* Padding on the right for spacing */
+}
+
+.Contact-info1{
+    font-size: 3em;
+
+}
+
+.Contact-info2{
+    font-size: 2em;
+    margin-top: 10px;
+
+
+}
+.Contact-info3{
+    font-size: 2em;
+    margin-top: 20px;
+
+}
+
+.phone-number {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
